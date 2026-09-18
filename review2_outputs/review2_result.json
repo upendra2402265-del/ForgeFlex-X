@@ -1,0 +1,40 @@
+{
+  "forecast_metrics": {
+    "pv_mae_kw": 4.883234824605188,
+    "load_mae_kw": 13.43942444383528,
+    "pv_rmse_kw": 8.63027132917479,
+    "load_rmse_kw": 17.515003442968613
+  },
+  "kpis": {
+    "optimized_cost_rs": 41507.48946286764,
+    "baseline_cost_rs": 44565.064036202835,
+    "cost_reduction_pct": 6.860922651993377,
+    "grid_peak_kw": 397.9264087151385,
+    "baseline_peak_kw": 399.03593838296007,
+    "peak_reduction_pct": 0.27805256647252946,
+    "renewable_utilization_pct": 100.0,
+    "curtailment_pct": 0.0,
+    "grid_energy_kwh": 5812.075256038073,
+    "pv_energy_kwh": 3650.406714157405,
+    "curtailed_kwh": 0.0,
+    "load_energy_kwh": 9423.875262004218
+  },
+  "digital_twin": {
+    "validation_pass": true,
+    "violation_count": 0,
+    "violations": "",
+    "max_balance_residual_kw": 0.0,
+    "min_soc_kwh": 99.99999999999994,
+    "max_soc_kwh": 475.0,
+    "final_soc_kwh": 299.99999999999994,
+    "grid_peak_kw": 397.9264087151385,
+    "total_grid_kwh": 5812.075256038073,
+    "total_curtailment_kwh": 0.0,
+    "production_constraint_violations": 0
+  },
+  "milp": {
+    "solver": "scipy.optimize.milp",
+    "battery_charge_discharge_exclusivity": true,
+    "time_step_h": 1.0
+  }
+}

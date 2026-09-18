@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+scikit-learn
+plotly
+streamlit
+joblib
+openpyxl
+ortools
+pytest
+# Optional: gurobipy after a valid academic/commercial license is activated.

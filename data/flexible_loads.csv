@@ -1,0 +1,4 @@
+name,power_kw,duration_h,start_h,end_h,critical
+Air Compressor,150,2,9,16,0
+Chiller,110,3,10,17,0
+Water Pump,75,2,8,18,0
